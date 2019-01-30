@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Design</title>
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" width="45" height="45" class="d-inline-block align-left" alt=""> Flora cards
+            </a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 mt-3">
+                <div class="box">
+                    <div class="options-box">
+                        <div class="options-colors">
+                            <h3>change Colors :</h3>
+                            <div class="list-unstyled">
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                                <button></button>
+
+                            </div>
+                        </div>
+                        <i class="fas fa-cog"></i>
+
+                    </div>
+                    <div class="option">
+                        <div class="options-background">
+                            <h3>background:</h3>
+                            <img src="images/design/download.jpg" class="p-item" />
+                            <img src="images/design/1.jpg" class="p-item" />
+                            <img src="images/design/2.jpg" class="p-item" />
+                            <img src="images/design/3.jpg" class="p-item" />
+                            <img src="images/design/4.jpg" class="p-item" />
+                            <img src="images/design/5.jpg" class="p-item" />
+                            <img src="images/design/6.jpg" class="p-item" />
+                            <img src="images/design/7.png" class="p-item" />
+                            <img src="images/design/8.jpg" class="p-item" />
+                            <img src="images/design/9.gif" class="p-item" />
+                            <img src="images/design/10.jpg" class="p-item" />
+                            <img src="images/design/11.jpg" class="p-item" />
+
+                        </div>
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <div class="size_1">
+                        <div class="options-size">
+                            <h3>size:</h3>
+
+                            <div class="your-size-1"></div>
+                            <div class="your-size-2"></div>
+                            <div class="your-size-3"></div>
+                        </div>
+                        <i class="fas fa-bars"></i>
+
+                    </div>
+
+                    <div class="text-1">
+                        <div class="options-text">
+                            <i id="close" class=""></i>
+                            <h3>text:</h3>
+                            <div id="list_section">
+                                <h1 id="header"> add your text</h1>
+                                <div id="newItemButton">
+                                    <button href="#">new text</button>
+                                </div>
+                                <form id="newItemForm">
+                                    <input type="text" id="itemField" placeholder="Item" />
+                                    <input type="submit" id="add" value="add" />
+
+                                </form>
+                            </div>
+
+                        </div>
+                        <i class="fas fa-text-height"></i>
+
+                    </div>
+                    <div class="stickers">
+                        <div class="options-stickers">
+                            <br>
+
+                            <div class="drag hide">
+
+                                <img id="drag1" src="images/design/12.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/13.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/14.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/15.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/16.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/17.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/18.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/19.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/4.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/20.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/21.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+                                <img id="drag1" src="images/design/22.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+                            </div>
+
+                        </div>
+                        <i class="fab fa-pagelines"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 mt-3">
+                <div id="drag1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <div id="home" class="design">
+
+                        <p class="item" id="itemField"></p>
+
+                        <div class="container">
+                            <div id="home">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="button mb-5">
+        <button class="btn btn-i my-2 my-sm-0" type="submit"><a href="send.html">
+            Send</a></button>
+
+    </div>
+
+    <footer>
+        <div class="container-fluid end">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-behance"></i>
+                        <i class="fab fa-dribbble"></i>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="copy">
+                        <h6> &copy; Flora Cards</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>
